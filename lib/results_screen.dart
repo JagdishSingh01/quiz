@@ -54,9 +54,9 @@ class ResultScreen extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            TextButton.icon(
+            OutlinedButton.icon(
               onPressed: onRestart,
-              style: TextButton.styleFrom(
+              style: OutlinedButton.styleFrom(
                 foregroundColor: Colors.white,
               ),
               icon: const Icon(Icons.refresh, color: Colors.white,),

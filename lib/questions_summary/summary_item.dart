@@ -44,7 +44,8 @@ class SummaryItem extends StatelessWidget {
                 style: const TextStyle(
                   color: Color.fromARGB(255, 181, 254, 246),
                 ),
-              )
+              ),
+              SizedBox(height: 10,)
             ],
           )
         )

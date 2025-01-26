@@ -10,6 +10,15 @@ class QuestionsSummary extends StatelessWidget {
         (data){
           return Row(children: [
             Text(((data['question_index'] as int) + 1) as String),
+            Expanded(
+              child: Column(children: [
+                Text(data['question'] as String),
+                SizedBox(height: 7,),
+                Text(data['user_answer'] as String),
+                SizedBox(height: 4,),
+                Text(data['correct_answer'] as String),
+              ],),
+            )
           ],);
         },
       ).toList(),

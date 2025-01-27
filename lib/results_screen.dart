@@ -58,6 +58,7 @@ class ResultScreen extends StatelessWidget {
               onPressed: onRestart,
               style: OutlinedButton.styleFrom(
                 foregroundColor: Colors.white,
+                side: BorderSide(color: Colors.white, width: 2),
               ),
               icon: const Icon(Icons.refresh, color: Colors.white,),
               label:const Text('Restart Quiz'),

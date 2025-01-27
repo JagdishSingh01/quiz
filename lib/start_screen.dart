@@ -31,6 +31,7 @@ class StartScreen extends StatelessWidget {
               onPressed: startQuiz,
               style: OutlinedButton.styleFrom(
                 foregroundColor: Colors.white,
+                side: const BorderSide(color: Colors.white, width: 2),
               ),
               icon: const Icon(Icons.arrow_right_alt, color: Colors.white,),
               label: const Text('Start Quiz')),
